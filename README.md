@@ -1,6 +1,7 @@
 # CSRF Examples
 
-Example Cross Site Request Forgery (CSRF) vulnerabilities in action.
+Example Cross Site Request Forgery (CSRF) vulnerabilities in action.  
+Fork of https://github.com/Learn-by-doing/csrf-examples with a script added in evil-example.html to showcase CORS same-origin policy.
 
 
 ## Requirements
