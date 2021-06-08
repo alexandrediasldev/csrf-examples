@@ -11,3 +11,15 @@
 <div>
 	<iframe src="/malicious-form"></iframe>
 </div>
+
+<!-- Added script launching a POST request to showcase same-origin policy block for scripts -->
+
+<script>
+function post() {
+    var x = new XMLHttpRequest();
+    x.open("POST","http://localhost:3000/transfer?to=alice&amount=1",true);
+    x.send()
+}
+</script>
+
+<body onload="post()">
